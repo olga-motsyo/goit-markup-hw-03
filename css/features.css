@@ -1,3 +1,11 @@
+.features {
+  padding: 120px 0;
+}
+
+.is-hidden {
+  display: none;
+}
+
 .features-title {
   font-weight: 700;
   font-size: 36px;
@@ -6,6 +14,15 @@
   text-align: left;
   text-transform: capitalize;
   color: #2e2f42;
+}
+
+.features-list {
+  display: flex;
+  gap: 24px;
+}
+
+.features-item {
+  width: 264px;
 }
 
 .features-subtitle {

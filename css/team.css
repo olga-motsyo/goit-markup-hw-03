@@ -6,6 +6,7 @@
   text-align: center;
   text-transform: capitalize;
   color: #2e2f42;
+  margin-bottom: 72px;
 }
 
 .team-name {
@@ -27,8 +28,16 @@
 
 .team-item {
   background: #fff;
+  width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .team {
   background-color: #f4f4fd;
+  padding: 120px 0;
+}
+
+.team-list {
+  display: flex;
+  gap: 24px;
 }
