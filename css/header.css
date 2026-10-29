@@ -1,5 +1,8 @@
 .header-menu-link,
 .address-link {
+  display: block;
+  padding-top: 24px;
+  padding-bottom: 24px;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -21,4 +24,32 @@
 
 .logo {
   line-height: 1.33333;
+  margin-right: 76px;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+}
+
+.header-menu {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.header-address {
+  font-style: normal;
+}
+
+.address-menu {
+  display: flex;
+  align-items: center;
+  gap: 40px;
 }
