@@ -30,7 +30,6 @@
 .header-container {
   display: flex;
   align-items: center;
-  justify-content: space-between;
 }
 
 .header-nav {
@@ -46,10 +45,15 @@
 
 .header-address {
   font-style: normal;
+  margin-left: auto;
 }
 
 .address-menu {
   display: flex;
   align-items: center;
   gap: 40px;
+}
+
+.header {
+  border-bottom: 1px solid #e7e9fc;
 }
